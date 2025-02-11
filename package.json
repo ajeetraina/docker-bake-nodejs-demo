@@ -1,1 +1,18 @@
-{"name": "docker-bake-demo","version": "1.0.0","description": "Demo application for Docker Bake features","main": "src/index.js","scripts": {"start": "node src/index.js","test": "jest","dev": "nodemon src/index.js"},"dependencies": {"express": "^4.18.2"},"devDependencies": {"jest": "^29.7.0","nodemon": "^3.0.2"}}
+{
+  "name": "docker-bake-demo",
+  "version": "1.0.0",
+  "description": "Demo application for Docker Bake features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
